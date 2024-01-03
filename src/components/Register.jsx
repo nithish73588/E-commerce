@@ -1,8 +1,9 @@
 import React from "react";
+import image from "../assets/bg1.jpg";
 
 const Register = () => {
     return (
-        <>
+        <div style={{background:`url(${image})`}}>
             <div className="grid place-items-center h-screen">
                     <form className="flex flex-col text-center px-10 bg-green-400 rounded">
                         <h1 className="text-7xl">Register</h1>
@@ -16,7 +17,7 @@ const Register = () => {
                         <input type="submit" value="Submit"/>
                     </form>
             </div>
-        </>
+        </div>
     )
 }
 
