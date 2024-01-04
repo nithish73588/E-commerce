@@ -2,6 +2,7 @@ import './App.css';
 import Register from './components/Register';
 import Login from './components/login';
 import Header from './components/index/header';
+import Cursole from './components/index/cursole';
 // import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Login />
       <Register />
       <Header />
+      <Cursole/>
     </div>
   );
 }
