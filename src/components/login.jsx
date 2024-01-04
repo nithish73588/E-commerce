@@ -21,6 +21,7 @@ const Login = () => {
             <input type='text' placeholder='Enter your Password' className='p-1 rounded-md' />
             <a href='/' >Forget Password? </a>
             <input type='submit' value='LOGIN' className='bg-red-300 p-1 rounded-md'/>
+            <p>Create an account</p> <a href="/register">Register</a>
         </form>
    </div>
    </div>
