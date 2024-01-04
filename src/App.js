@@ -1,7 +1,6 @@
 import './App.css';
-// import Register from './components/Register';
-// import Login from './components/login';
-import Headers from "./components/index/header"
+import Register from './components/Register';
+import Login from './components/login';
 // import { BrowserRouter , Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,9 +13,9 @@ function App() {
         </Routes>
       </BrowserRouter> */}
 
-      {/* <Login />
-      <Register /> */}
-      <Headers />
+
+      <Login />
+      <Register />
     </div>
   );
 }
