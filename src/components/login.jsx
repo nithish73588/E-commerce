@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Image from '../assets/bg1.jpg';
-
+  
 const Login = () => {
 //   const [username, setUsername] = useState('');
 //   const [password, setPassword] = useState('');
