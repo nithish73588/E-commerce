@@ -5,8 +5,8 @@ const Register = () => {
     return (
         <div style={{background:`url(${image})`}}>
             <div className="grid place-items-center h-screen">
-                    <form className="flex flex-col text-center px-10 bg-green-400 rounded">
-                        <h1 className="text-7xl">Register</h1>
+                    <form className="flex flex-col text-center gap-2 px-10 bg-green-400 rounded">
+                        <h1 className="">Register</h1>
                         <input type="text" placeholder="First Name"/>
                         <input type="text" placeholder="Last Name"/>
                         <input type="Date" placeholder="BOD"/>
