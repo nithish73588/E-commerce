@@ -24,11 +24,11 @@ const Cursole = () => {
       <div >
         <div className='flex flex-row gap-10 w-[270px] h-[250px] '>
           <div className='w-50 bg-gray-500 py-10 px-5'>
-            <img src={Game} alt='key' className='w-170 h-179 mx-auto'/>
+            <img src={Game} alt='key' className='w-100 h-140 mx-auto'/>
           <div className=''>
             <h6 className='text-center'>HAVIT HV-G92 Gamepad</h6>
             <h6>$120 <s className='ml-2'>$160</s></h6>
-            <div className='flex gap-3 '>
+            <div className='flex gap-3'>
             <IoStar size={20} className='text-yellow-400 ' />
             <IoStar size={20} className='text-yellow-400' />
             <IoStar size={20} className='text-yellow-400' />
@@ -41,7 +41,7 @@ const Cursole = () => {
           <div className='w-50 bg-gray-500 py-10 px-5'>
             <img src={Keyboard} alt='board' className='w-170 h-179'/>
             <div>
-            <h6 className='m-3'>AK-900 Wired Keyboard</h6>
+            <h6 className='text-center'>AK-900 Wired Keyboard</h6>
             <h6>$100 <s className='ml-2'>$120</s></h6>
             </div>
             <div className='flex gap-3'>
