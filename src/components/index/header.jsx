@@ -5,8 +5,8 @@ import { IoCartOutline } from "react-icons/io5";
 const Header = () => {
   function Car(props) {
     return (
-      <li>
-        <a href={`#${props.brand}`}>{props.brand}</a>
+      <li className="hover:underline hover:decoration-black">
+        <a href={`${props.brand}`}>{props.brand}</a>
       </li>
     );
   }
