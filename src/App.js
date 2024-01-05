@@ -20,8 +20,9 @@ function App() {
       <Register />
       <Header />
       <Cursole/>
+      
     </div>
-  );
+  ); 
 }
 
 export default App;
