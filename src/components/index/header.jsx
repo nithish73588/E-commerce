@@ -61,7 +61,7 @@ const Header = () => {
         </div>
         <div>
           {/* Search , Cart , Fav */}
-          <div className="flex items-center gap-x-4 text-black">
+          <div className="flex items-center gap-x-6 text-black">
             <input type="Search" placeholder="what are you looking for?" />
             <GoHeart />
             <IoCartOutline />
