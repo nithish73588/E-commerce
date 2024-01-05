@@ -48,7 +48,7 @@ const Header = () => {
         <div className="">
           {" "}
           {/* Topic Header */}
-          <h2>Exclusive</h2>
+          <h1 className="text-2xl font-bold">Exclusive</h1>
         </div>
         <div>
           {" "}
